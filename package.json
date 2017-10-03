@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.1",
   "description": "lenses application",
-  "keywords": ["lenses","signature"],
+  "keywords": [
+    "lenses",
+    "signature"
+  ],
   "dependencies": {
     "ejs": "2.3.4",
     "grunt": "1.0.1",
+    "grunt-bower": "^0.21.4",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-coffee": "1.0.0",
     "grunt-contrib-concat": "1.0.1",
@@ -32,6 +36,6 @@
     "type": "git",
     "url": "git://github.com/anonymous node/sails user/lenses.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "Fabio Thomaz Molinar",
   "license": ""
 }

@@ -1,0 +1,25 @@
+{
+  "name": "lenses",
+  "description": "lenses application",
+  "main": "app.js",
+  "authors": [
+    "Fabio Thomaz Molinar"
+  ],
+  "license": "",
+  "keywords": [
+    "lenses",
+    "signature"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.1.1"
+  }
+}
