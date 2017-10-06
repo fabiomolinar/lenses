@@ -9,7 +9,6 @@ module.exports = function(grunt) {
       }
     }
   });
-  console.log('running grunt-bower');
 
   grunt.loadNpmTasks('grunt-bower');
 };
