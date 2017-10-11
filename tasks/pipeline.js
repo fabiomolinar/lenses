@@ -17,8 +17,7 @@
 // (if you're using LESS with the built-in default config, you'll want
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
-  'styles/**/*.css',
-  'foundation/css/*.css'
+  'styles/**/*.css'
 ];
 
 
@@ -26,10 +25,11 @@ var cssFilesToInject = [
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
 
-  // Load sails.io before everything else
-  'js/dependencies/sails.io.js',
+  // Load sails.io before everything else - used to add web sockets capabilities
+  //'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
+  '!js/dependencies/sails.io.js',
   'js/dependencies/**/*.js',
   'foundation/bower_components/jquery/dist/jquery.min.js',
   'foundation/bower_components/what-input/dist/what-input.min.js',
