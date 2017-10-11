@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+    <title>Lenses App</title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Making buying lenses easy">
+    <meta name="keywords" content="contact lenses, lenses, eyes, vision, glasses">
 
     <!-- Polymer Configuration -->
     <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
@@ -34,6 +37,7 @@
 
     <!--STYLES-->
     <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/foundation/css/app.css">
     <!--STYLES END-->
   </head>
 
@@ -93,6 +97,9 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/foundation/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/foundation/bower_components/what-input/dist/what-input.min.js"></script>
+    <script src="/foundation/bower_components/foundation-sites/dist/js/foundation.min.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
